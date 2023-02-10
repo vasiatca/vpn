@@ -13,7 +13,7 @@ const Header = () => {
       <div className='flex items-center'>
         <button
           type='button'
-          className='mr-2 flex items-center justify-center rounded-md bg-blue-500 py-2 px-4 text-base text-white'
+          className='mr-2 flex items-center justify-center rounded-md bg-blue-500 py-2 px-4 text-base font-semibold text-white'
         >
           <svg
             className='mr-2'
@@ -30,7 +30,10 @@ const Header = () => {
           </svg>
           Добавить
         </button>
-        <button type='button' className='flex items-center justify-center rounded-md bg-gray-100 py-2 px-4 text-base'>
+        <button
+          type='button'
+          className='flex items-center justify-center rounded-md bg-gray-100 py-2 px-4 text-base font-semibold'
+        >
           <svg
             className='mr-2'
             width='14'
