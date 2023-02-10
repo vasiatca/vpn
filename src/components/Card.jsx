@@ -10,9 +10,9 @@ const Card = () => {
         </div>
         <div className='flex items-center'>
           <div className='mr-5 flex'>
-            <label htmlFor='check' className='relative h-5 w-9 cursor-pointer rounded-full bg-blue-500'>
-              <input type='checkbox' id='check' className='peer sr-only' />
-              <span className='absolute left-0.5 top-0.5 h-4 w-4 rounded-full bg-white transition-all peer-checked:left-4'></span>
+            <label className='relative inline-flex cursor-pointer items-center'>
+              <input type='checkbox' value='' className='peer sr-only' />
+              <div className="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white"></div>
             </label>
           </div>
 
